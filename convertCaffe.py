@@ -146,9 +146,9 @@ def getGraph(onnx_path):
 
 if __name__ == "__main__":
 
-    onnx_path = "/home/willer/yolov5-4.0/models/models_not_focus/yolov5s-simple.onnx"
-    prototxt_path = "./yolov5s-4.0-not-focus.prototxt"
-    caffemodel_path = "./yolov5s-4.0-not-focus.caffemodel"
+    onnx_path = "/workspace/yolov5_onnx2caffe/best-sim.onnx"
+    prototxt_path = "/workspace/yolov5_onnx2caffe/yolov5s-4.0-not-focus.prototxt"
+    caffemodel_path = "/workspace/yolov5_onnx2caffe/yolov5s-4.0-not-focus.caffemodel"
 
     #onnx_path = "/home/willer/nanodet_concat/tools/nanodet-simple.onnx"
     #prototxt_path = "./nanodet-simple.prototxt"
